@@ -50,11 +50,77 @@
 
 #menuButton1 {
     -fx-background-color: #032475;
+    -fx-text-fill: white;
+    -fx-border-color: #032475;
+    -fx-border-width: 1;
 }
 
 #menuButton1:hover {
-    -fx-text-fill: #032475;
     -fx-background-color: white;
+    -fx-border-color: black;
+    -fx-border-width: 1;
+    -fx-text-fill: black;
+}
+
+#menuButton2 {
+    -fx-background-color: #032475;
+    -fx-text-fill: white;
     -fx-border-color: #032475;
-    -fx-border-radius: 3;
+    -fx-border-width: 1;
+}
+
+#menuButton2:hover {
+    -fx-background-color: white;
+    -fx-border-color: black;
+    -fx-border-width: 1;
+    -fx-text-fill: black;
+}
+
+#menuButton3 {
+    -fx-background-color: #032475;
+    -fx-text-fill: white;
+    -fx-border-color: #032475;
+    -fx-border-width: 1;
+}
+
+#menuButton3:hover {
+    -fx-background-color: white;
+    -fx-border-color: black;
+    -fx-border-width: 1;
+    -fx-text-fill: black;
+}
+
+#menuButton4 {
+    -fx-background-color: #032475;
+    -fx-text-fill: white;
+    -fx-border-color: #032475;
+    -fx-border-width: 1;
+}
+
+#menuButton4:hover {
+    -fx-background-color: white;
+    -fx-border-color: black;
+    -fx-border-width: 1;
+    -fx-text-fill: black;
+}
+
+#logOut {
+    -fx-background-radius: 20;
+    -fx-border-color: white;
+    -fx-background-color: #032475;
+    -fx-text-fill: white;
+    -fx-border-radius: 20;
+}
+
+#logOut:hover{
+    -fx-background-radius: 20;
+    -fx-border-color: black;
+    -fx-background-color: white;
+    -fx-text-fill: black;
+    -fx-border-radius: 20;
+    -fx-rotate: 10;
+}
+
+#reportBug:hover {
+    -fx-text-fill: green;
 }

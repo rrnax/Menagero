@@ -24,6 +24,8 @@ public class GeneralController {
     //Buttons
     @FXML
     private Button minimalizeButton;
+    @FXML
+    private Button  menuButton1, menuButton2, menuButton3, menuButton4;
 
     //Elements dependent on data base
     @FXML
